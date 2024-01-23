@@ -1,6 +1,6 @@
 package main
 
-import "github.com/vinialeixo/data-struct/twodslices"
+import "github.com/vinialeixo/data-struct/maps"
 
 func main() {
 	// var slice = []int{1, 3, 5, 6}
@@ -11,5 +11,6 @@ func main() {
 	// }
 	//twodarray.TwoDArray()
 
-	twodslices.Twodslices(7, 9)
+	//twodslices.Twodslices(7, 9)
+	maps.ValidateMap()
 }
